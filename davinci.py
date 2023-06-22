@@ -3,7 +3,7 @@ import gradio as gr
 import pandas as pd
 import numpy as np
 # Initialize the API key
-openai.api_key = "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"
+openai.api_key = "ENTER-API-KEY"
 
 finetune_history = [
                 {"role": "user", "content": f"You are director of NLP at OpenAI and conversation specialist. You are building a self learning chatbot agent with conditional language model with a dataset of input-output pairs for training data. You are also an expert arabic translator. if you understand reply OK?"},
