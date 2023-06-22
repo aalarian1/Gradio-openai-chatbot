@@ -6,7 +6,7 @@ import pandas as pd
 
 
 def get_data():
-    URL = "https://docs.google.com/spreadsheets/d/1UoKzzRzOCt-FXLLqDKLbryEKEgllGAQUEJ5qtmmQwpU/edit#gid=0"
+    URL = "https://docs.google.com/spreadsheets/file"
     csv_url = URL.replace('/edit#gid=', '/export?format=csv&gid=')
     return pd.read_csv(csv_url)
 # def get_data():
